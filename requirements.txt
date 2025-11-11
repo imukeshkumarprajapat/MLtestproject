@@ -4,4 +4,13 @@ python-dotenv
 mysql-connector-python
 pymysql
 scikit-learn
+catboost
+seaborn
+matplotlib
+xgboost
+flask
+dill
+seaborn
+mlfow==2.2.2
+
 
