@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/9100d4fa1d1f445c9cfd9023c16b829f/artifacts
+end_time: 1762945926980
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9100d4fa1d1f445c9cfd9023c16b829f
+run_name: dapper-hare-664
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762945916487
+status: 3
+tags: []
+user_id: root

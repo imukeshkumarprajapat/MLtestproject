@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/7f2dcc56aae543609e3733c46ae667b2/artifacts
+end_time: 1762945859794
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7f2dcc56aae543609e3733c46ae667b2
+run_name: nimble-owl-87
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762945855946
+status: 3
+tags: []
+user_id: root

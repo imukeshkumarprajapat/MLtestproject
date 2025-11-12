@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/models/m-8e9dffccf9414e90bec9aa61dd1aec8b/artifacts
+creation_timestamp: 1762946233057
+experiment_id: '0'
+last_updated_timestamp: 1762946235837
+model_id: m-8e9dffccf9414e90bec9aa61dd1aec8b
+model_type: null
+name: best_estimator
+source_run_id: c2230fedfa5d4541b41708971f59a534
+status: 2
+status_message: null

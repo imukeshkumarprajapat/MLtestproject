@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/c54c4365ae094fbaa917d8930a71992e/artifacts
+end_time: 1762945903918
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c54c4365ae094fbaa917d8930a71992e
+run_name: redolent-midge-402
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762945859820
+status: 3
+tags: []
+user_id: root

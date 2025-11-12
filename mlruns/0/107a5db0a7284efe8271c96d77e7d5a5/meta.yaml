@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/107a5db0a7284efe8271c96d77e7d5a5/artifacts
+end_time: 1762946317014
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 107a5db0a7284efe8271c96d77e7d5a5
+run_name: resilient-panda-64
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762946306367
+status: 3
+tags: []
+user_id: imukeshkumarprajapat

@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/8dbe0d349a3f416b899d3ae309ebbb4f/artifacts
+end_time: 1762945926980
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8dbe0d349a3f416b899d3ae309ebbb4f
+run_name: legendary-eel-584
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762945916487
+status: 3
+tags: []
+user_id: root

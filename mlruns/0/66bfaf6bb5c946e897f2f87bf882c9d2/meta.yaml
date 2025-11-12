@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/66bfaf6bb5c946e897f2f87bf882c9d2/artifacts
+end_time: 1762945927285
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 66bfaf6bb5c946e897f2f87bf882c9d2
+run_name: worried-sow-261
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762945916487
+status: 3
+tags: []
+user_id: root

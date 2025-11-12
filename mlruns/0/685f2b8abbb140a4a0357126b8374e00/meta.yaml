@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/685f2b8abbb140a4a0357126b8374e00/artifacts
+end_time: 1762940013081
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 685f2b8abbb140a4a0357126b8374e00
+run_name: casual-penguin-964
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762940012699
+status: 3
+tags: []
+user_id: root

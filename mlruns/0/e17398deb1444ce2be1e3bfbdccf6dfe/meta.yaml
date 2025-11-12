@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/e17398deb1444ce2be1e3bfbdccf6dfe/artifacts
+end_time: 1762945836112
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e17398deb1444ce2be1e3bfbdccf6dfe
+run_name: carefree-wasp-897
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762945833268
+status: 3
+tags: []
+user_id: root

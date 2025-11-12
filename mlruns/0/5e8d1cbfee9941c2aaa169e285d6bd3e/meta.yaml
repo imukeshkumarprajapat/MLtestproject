@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/5e8d1cbfee9941c2aaa169e285d6bd3e/artifacts
+end_time: 1762939393671
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5e8d1cbfee9941c2aaa169e285d6bd3e
+run_name: selective-shrike-804
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762939393527
+status: 3
+tags: []
+user_id: root

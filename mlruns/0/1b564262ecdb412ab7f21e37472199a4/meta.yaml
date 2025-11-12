@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/1b564262ecdb412ab7f21e37472199a4/artifacts
+end_time: 1762946356201
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1b564262ecdb412ab7f21e37472199a4
+run_name: casual-wren-422
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762946338555
+status: 3
+tags: []
+user_id: imukeshkumarprajapat

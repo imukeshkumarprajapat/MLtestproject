@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/5d75fc7ef49343bfb6138edb6fe3ed9d/artifacts
+end_time: 1762945846271
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5d75fc7ef49343bfb6138edb6fe3ed9d
+run_name: dashing-frog-925
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762945836172
+status: 3
+tags: []
+user_id: root

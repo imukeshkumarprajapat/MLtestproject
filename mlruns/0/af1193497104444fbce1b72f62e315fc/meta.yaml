@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/af1193497104444fbce1b72f62e315fc/artifacts
+end_time: 1762945970930
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: af1193497104444fbce1b72f62e315fc
+run_name: welcoming-turtle-565
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762945951745
+status: 3
+tags: []
+user_id: root

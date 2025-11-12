@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/1342a810232f4a39b547fec2e50408cc/artifacts
+end_time: 1762945846052
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1342a810232f4a39b547fec2e50408cc
+run_name: abundant-skunk-532
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762945836172
+status: 3
+tags: []
+user_id: root

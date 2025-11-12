@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/fa3ab95a3157459498c3f820ee5f940e/artifacts
+end_time: 1762938864863
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fa3ab95a3157459498c3f820ee5f940e
+run_name: tasteful-dolphin-494
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762938864811
+status: 4
+tags: []
+user_id: root

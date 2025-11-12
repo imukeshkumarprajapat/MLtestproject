@@ -1,0 +1,24 @@
+artifact_path: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/models/m-fc72bfc47e184f96921b9ec856d6a236/artifacts
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 3.1.4
+model_id: m-fc72bfc47e184f96921b9ec856d6a236
+model_size_bytes: 2107
+model_uuid: m-fc72bfc47e184f96921b9ec856d6a236
+prompts: null
+run_id: e17398deb1444ce2be1e3bfbdccf6dfe
+signature:
+  inputs: '[{"type": "string", "name": "gender", "required": true}, {"type": "string",
+    "name": "race_ethnicity", "required": true}, {"type": "string", "name": "parental_level_of_education",
+    "required": true}, {"type": "string", "name": "lunch", "required": true}, {"type":
+    "string", "name": "test_preparation_course", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    17]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-11-12 11:10:33.540582'

@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/a4aa21bf62d3471b8ecde6c5e1b5436e/artifacts
+end_time: 1762945903918
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a4aa21bf62d3471b8ecde6c5e1b5436e
+run_name: nervous-hound-339
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762945859820
+status: 3
+tags: []
+user_id: root

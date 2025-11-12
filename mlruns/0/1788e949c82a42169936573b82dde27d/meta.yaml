@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/1788e949c82a42169936573b82dde27d/artifacts
+end_time: 1762945951413
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1788e949c82a42169936573b82dde27d
+run_name: sincere-cub-41
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762945934485
+status: 3
+tags: []
+user_id: root

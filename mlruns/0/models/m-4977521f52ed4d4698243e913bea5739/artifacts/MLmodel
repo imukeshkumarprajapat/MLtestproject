@@ -1,0 +1,22 @@
+artifact_path: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/models/m-4977521f52ed4d4698243e913bea5739/artifacts
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 3.1.4
+model_id: m-4977521f52ed4d4698243e913bea5739
+model_size_bytes: 985
+model_uuid: m-4977521f52ed4d4698243e913bea5739
+prompts: null
+run_id: 00c2d3cf14b94fdd8fcbc8e63a53982d
+signature:
+  inputs: '[{"type": "long", "name": "writing_score", "required": true}, {"type":
+    "long", "name": "reading_score", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    2]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-11-12 11:16:59.043819'

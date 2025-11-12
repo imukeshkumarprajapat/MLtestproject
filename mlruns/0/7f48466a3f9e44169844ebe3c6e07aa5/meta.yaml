@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/7f48466a3f9e44169844ebe3c6e07aa5/artifacts
+end_time: 1762945951413
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7f48466a3f9e44169844ebe3c6e07aa5
+run_name: respected-rook-917
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762945934485
+status: 3
+tags: []
+user_id: root

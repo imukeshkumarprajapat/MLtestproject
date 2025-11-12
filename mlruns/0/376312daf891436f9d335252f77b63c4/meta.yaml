@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/376312daf891436f9d335252f77b63c4/artifacts
+end_time: 1762945855726
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 376312daf891436f9d335252f77b63c4
+run_name: masked-fly-8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762945849740
+status: 3
+tags: []
+user_id: root

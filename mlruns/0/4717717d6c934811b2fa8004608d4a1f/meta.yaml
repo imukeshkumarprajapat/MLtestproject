@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/4717717d6c934811b2fa8004608d4a1f/artifacts
+end_time: 1762945903918
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4717717d6c934811b2fa8004608d4a1f
+run_name: gifted-dove-331
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762945859820
+status: 3
+tags: []
+user_id: root

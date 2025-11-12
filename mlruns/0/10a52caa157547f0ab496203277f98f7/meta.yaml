@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/10a52caa157547f0ab496203277f98f7/artifacts
+end_time: 1762945903918
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 10a52caa157547f0ab496203277f98f7
+run_name: worried-foal-680
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762945859820
+status: 3
+tags: []
+user_id: root

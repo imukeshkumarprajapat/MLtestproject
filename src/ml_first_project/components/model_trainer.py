@@ -22,8 +22,11 @@ from xgboost import XGBRegressor
 from src.ml_first_project.exception import CustomException
 from src.ml_first_project.logger import logging
 from src.ml_first_project.utils import save_object
-
+import os
+from urllib.parse import urlparse
+import mflow
 from src.ml_first_project.utils import evaluate_model
+
 # model_trainer.py me:
 
 
@@ -36,6 +39,19 @@ class ModelTrainerConfig:
 class MedelTrainer:
     def __init__(self):
         self.model_trainer_config=ModelTrainerConfig()
+
+
+    def evel_metrics(self, actual, pred):
+        rmse=np.sqrt(mean_squared_error(actual, pred))
+        mae=mean_absolute_error(actual, pred)
+        r2=r2_score(actual, pred)
+        return rmse, mae, r2
+    
+
+
+
+
+
 
     def initiate_model_trainer(self, train_array, test_array):
         try:
@@ -78,6 +94,7 @@ class MedelTrainer:
                     'n_estimators': [8,16,32,64,128,256]
                 },
                 "LinearRegression":{},
+
                 "XGBRegressor":{
                     'learning_rate':[.1,.01,.05,.001],
                     'n_estimators': [8,16,32,64,128,256]
@@ -102,12 +119,59 @@ class MedelTrainer:
 
            # best_model_name=list(model_report.keys())[list(model_report.values()).index(best_model_score)]
             best_model_name=list(model_report.keys())[list(model_report.values()).index(best_model_score)]
-            
+
             best_model=models[best_model_name]
 
             print("this is the best model:")
-
             print(best_model_name)
+
+
+
+            model_names=list(params.keys())
+
+            actual_model=" "
+
+            for model in model_names:
+                if best_model_name==model:
+                    actual_model=actual_model+model
+            
+            best_params=params[actual_model.strip()]
+            print(f"Model selected: '{actual_model}'")
+            
+            #os.environ['MLFLOW_TRACKING_USERNAME'] = 'imukeshkumarprajapat'
+            #os.environ['MLFLOW_TRACKING_PASSWORD'] = 'f3972ad0aedfa586ce570c7fbe08534512c81809'
+
+            mlflow.set_tracking_uri("https://dagshub.com/imukeshkumarprajapat/MLtestproject.mlflow")
+            mlflow.set_experiment("Default")
+            tracking_url_type_store=urlparse(mlflow.get_tracking_uri()).scheme
+            
+
+            #mlflow track
+            with mlflow.start_run():
+                predicted_qualities=best_model.predict(X_test)
+                (rmse,mae,r2)=self.evel_metrics(y_test, predicted_qualities)
+                #mlflow.log_param(best_model)
+                mlflow.log_param("best_model", best_model_name.strip())  # ✅ Correct
+                mlflow.log_metric("rmse",rmse)
+                mlflow.log_metric("r2", r2)
+                mlflow.log_metric("mae", mae)
+                #model registery does not work with file store
+                
+            if tracking_url_type_store != "file":
+
+                    # Register the model
+                    # There are other ways to use the Model Registry, which depends on the use case,
+                    # please refer to the doc for more information:
+                    # https://mlflow.org/docs/latest/model-registry.html#api-workflow
+                #mlflow.sklearn.log_model(best_model, name="model".strip())
+                #mlflow.sklearn.log_model(best_model, name="model")
+                mlflow.sklearn.log_model(best_model, artifact_path="model")
+                
+            else:
+                mlflow.sklearn.log_model(best_model, "model")
+
+
+
 
             if best_model_score<0.6:
                 raise CustomException("No best model found")

@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/models/m-d93f8f8673f74cf2902e17d24f9867ca/artifacts
+creation_timestamp: 1762945907800
+experiment_id: '0'
+last_updated_timestamp: 1762945910589
+model_id: m-d93f8f8673f74cf2902e17d24f9867ca
+model_type: null
+name: model
+source_run_id: 87517cc5cc3c4449a1274ae434436bae
+status: 2
+status_message: null

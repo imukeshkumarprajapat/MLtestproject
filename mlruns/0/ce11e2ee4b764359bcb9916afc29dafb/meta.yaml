@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/ce11e2ee4b764359bcb9916afc29dafb/artifacts
+end_time: 1762945849667
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ce11e2ee4b764359bcb9916afc29dafb
+run_name: salty-steed-453
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762945846281
+status: 3
+tags: []
+user_id: root

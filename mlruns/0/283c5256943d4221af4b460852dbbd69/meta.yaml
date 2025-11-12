@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/283c5256943d4221af4b460852dbbd69/artifacts
+end_time: 1762945970711
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 283c5256943d4221af4b460852dbbd69
+run_name: salty-snake-999
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762945951745
+status: 3
+tags: []
+user_id: root

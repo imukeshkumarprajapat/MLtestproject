@@ -1,0 +1,11 @@
+digest: a542f478
+name: dataset
+profile: '{"num_rows": 200, "num_elements": 1000}'
+schema: '{"mlflow_colspec": [{"type": "string", "name": "gender", "required": true},
+  {"type": "string", "name": "race_ethnicity", "required": true}, {"type": "string",
+  "name": "parental_level_of_education", "required": true}, {"type": "string", "name":
+  "lunch", "required": true}, {"type": "string", "name": "test_preparation_course",
+  "required": true}]}'
+source: '{"tags": {"mlflow.user": "root", "mlflow.source.name": "app.py", "mlflow.source.type":
+  "LOCAL", "mlflow.source.git.commit": "2f20118f0d42e105f621001bd900ccc10b381e99"}}'
+source_type: code

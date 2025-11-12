@@ -5,6 +5,8 @@ from src.ml_first_project.components.data_ingestion import DataIngestion
 from src.ml_first_project.components.data_ingestion import DataIngestionConfig
 from src.ml_first_project.components.data_transformation import DataTransformationConfig, DataTransformation
 from src.ml_first_project.components.model_trainer import MedelTrainer, ModelTrainerConfig
+import dagshub
+dagshub.init(repo_owner='imukeshkumarprajapat', repo_name='MLtestproject', mlflow=True)
 
 if __name__ == "__main__":
     logging.info("Starting the ML First Project application...")
@@ -23,10 +25,6 @@ if __name__ == "__main__":
 
        model_trainer=MedelTrainer()
        print(model_trainer.initiate_model_trainer(train_arr, test_arr))
-
-
-
-
 
 
     except Exception as e:

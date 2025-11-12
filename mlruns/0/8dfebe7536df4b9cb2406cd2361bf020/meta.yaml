@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/8dfebe7536df4b9cb2406cd2361bf020/artifacts
+end_time: 1762945913164
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8dfebe7536df4b9cb2406cd2361bf020
+run_name: skittish-donkey-139
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762945907717
+status: 3
+tags: []
+user_id: root

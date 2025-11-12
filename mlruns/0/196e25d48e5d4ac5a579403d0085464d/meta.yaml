@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/196e25d48e5d4ac5a579403d0085464d/artifacts
+end_time: 1762945833261
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 196e25d48e5d4ac5a579403d0085464d
+run_name: orderly-foal-212
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762945828550
+status: 3
+tags: []
+user_id: root

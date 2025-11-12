@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/0686b0ec67e04840860b9d8aa6adbfe7/artifacts
+end_time: 1762945970711
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0686b0ec67e04840860b9d8aa6adbfe7
+run_name: bustling-midge-677
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762945951745
+status: 3
+tags: []
+user_id: root

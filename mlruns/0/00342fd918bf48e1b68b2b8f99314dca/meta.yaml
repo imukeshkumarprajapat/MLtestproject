@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Desktop/new%20ml%20project/ml%20first%20project/mlruns/0/00342fd918bf48e1b68b2b8f99314dca/artifacts
+end_time: 1762938843188
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 00342fd918bf48e1b68b2b8f99314dca
+run_name: crawling-newt-117
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762938843103
+status: 4
+tags: []
+user_id: root
