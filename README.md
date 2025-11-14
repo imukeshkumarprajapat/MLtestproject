@@ -1,5 +1,1 @@
-## End to End Data Science Project
-MLFLOW_TRACKING_URI=https://dagshub.com/imukeshkumarprajapat/MLtestproject.mlflow
-MLFLOW_TRACKING_USERNAME=imukeshkumarprajapat
-MLFLOW_TRACKING_PASSWORD=f3972ad0aedfa586ce570c7fbe08534512c81809
-python script.py
+
