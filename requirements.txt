@@ -12,5 +12,7 @@ flask
 dill
 seaborn
 mlfow==2.2.2
+pickle
+mlfow
 
 
