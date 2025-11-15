@@ -36,7 +36,7 @@ from src.ml_first_project.utils import evaluate_model
 class ModelTrainerConfig:
     trained_model_file_path: str = os.path.join('artifacts', 'model.pkl')
 
-class MedelTrainer:
+class ModelTrainer:
     def __init__(self):
         self.model_trainer_config=ModelTrainerConfig()
 
